@@ -108,10 +108,9 @@ mysqldesc@^1.1.2:
     extend "^3.0.0"
     mysql "^2.8.0"
 
-mysqlspec@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/mysqlspec/-/mysqlspec-1.0.5.tgz#d816e690fbb8b898f4a88ac0ea45db71cf1b9919"
-  integrity sha1-2BbmkPu4uJj0qIrA6kXbcc8bmRk=
+"mysqlspec@git+https://github.com/youknowcast/node-mysqlspec#master":
+  version "1.0.6"
+  resolved "git+https://github.com/youknowcast/node-mysqlspec#2b443537c49bfc10d3904cbbe35f72c7f257641f"
   dependencies:
     argx "^1.1.4"
     async "^1.4.0"
