@@ -16,7 +16,7 @@ const filename = prefix !== '' ? `${prefix}_schema.json` : 'schema.json'
 
 function callback(err: Error, schema) {
   try {
-    fs.writeFileSync('staffs_schema.json', JSON.stringify(schema, null, 2))
+    fs.writeFileSync(filename, JSON.stringify(schema, null, 2))
   } catch (e) {
     console.log(e)
   }
